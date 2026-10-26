@@ -1,0 +1,41 @@
+export const BUSINESS_INFO = {
+  name: 'Riyansh Marketing',
+  legalName: 'Riyansh Marketing',
+  owner: 'Kapil Patel',
+  ownerTitle: 'Owner',
+  phone: '+91 76003 07172',
+  phoneRaw: '+917600307172',
+  whatsapp: '+91 76003 07172',
+  whatsappRaw: '917600307172',
+  email: 'contact@riyanshmarketing.com',
+  address: {
+    line1: 'Unchi Mandal, Morbi-Halvad Road',
+    landmark: 'Opposite Mahashakti Hotel, Near HP Petrol Pump',
+    city: 'Morbi',
+    state: 'Gujarat',
+    pincode: '363642',
+    country: 'India',
+    fullFormatted: 'Unchi Mandal, Morbi-Halvad Road, Opposite Mahashakti Hotel, Near HP Petrol Pump, Morbi, Gujarat – 363642, India'
+  },
+  googleMapsUrl: 'https://maps.app.goo.gl/t8YvqCpqp9pxcJWk6',
+  qrCodePath: '/images/location/location-qr.png',
+  cardQrExtractedPath: '/images/location/card-qr-extracted.png',
+  cardFrontPath: '/images/card/business-card-front.jpg',
+  cardBackPath: '/images/card/business-card-back.jpg',
+  developerCredit: 'Website crafted by Abhi Viramgama',
+  businessHours: 'Monday – Saturday: 9:00 AM – 8:00 PM | Sunday: 10:00 AM – 4:00 PM',
+  categories: [
+    'Tiles Dealer',
+    'Tiles Marketing',
+    'Floor Tiles',
+    'Wall Tiles',
+    'Ceramic Tiles',
+    'Vitrified Tiles',
+    'Porcelain Tiles',
+    'Bathroom Tiles',
+    'Kitchen Tiles',
+    'Outdoor Tiles',
+    'Decorative Tiles',
+    'Sanitary Ware'
+  ]
+};
